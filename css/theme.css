@@ -1,0 +1,156 @@
+#visualization {
+	width: 800px; 
+	height: 600px; 
+	z-index: 1;
+}
+
+#bar1 {
+	position: relative;
+	background: #FFFFFF;
+	left: 55px;
+	top: -41px;
+	height: 17px;
+	width: 576px;
+	z-index: 100;
+}
+
+#bar2 {
+	position: relative;
+	background: #FFFFFF;
+	left: 633px;
+	top: -72px;
+	height: 17px;
+	width: 47px;
+	z-index: 100;
+}
+
+#bar3 {
+	position: relative;
+	background: #FFFFFF;
+	left: 598px;
+	top: -635px;
+	height: 21px;
+	width: 32px;
+	z-index: 100;
+}
+
+/*For advanced tab*/
+#bar4 {
+	position: relative;
+	background: #FFFFFF;
+	left: 749px;
+	top: -78px;
+	height: 28px;
+	width: 47px;
+	z-index: 100;
+}
+
+#bar5 {
+	position: relative;
+	background: #FFFFFF;
+	left: 37px;
+	top: -115px;
+	height: 32px;
+	width: 17px;
+	z-index: 100;
+}
+
+#left_cell {
+	width: 70%;
+	margin-right: 5px;
+}
+
+#right_cell {
+	width: 30%;
+	vertical-align: top;
+}
+
+
+body {
+	background: #DDF3FF;
+	color: #000305;
+	font-size: 87.5%; /* Base font size: 14px */
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.429;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+header, footer, nav {
+	display: block;
+}
+
+.body {
+	clear: both; 
+	margin: 10px auto; 
+	width: 1200px;
+}
+
+#banner {
+	background: #2C2C2C;
+	color: #FFFFFF;
+	padding: 2.5em 0 0 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+h1 {
+	margin-left: 40px;
+	font-size: 2.571em; 
+	line-height: .6;
+}
+
+nav {
+	border: 2px;
+	border-color: #FFFFFF;
+	background: #2C2C2C;
+	font-size: 1.143em;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 0 2em 0;
+	padding: 0;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+nav ul {list-style: none;}
+nav li {float: left; display: inline;}
+
+nav a:link, nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 1.5em;
+	text-decoration: none;
+}
+nav a:hover, nav a:active,
+nav .active a:link, nav .active a:visited {
+	background: #00BEF6;
+	color: #fff;
+	text-shadow: none !important;
+}
+
+#contentinfo nav a:link, #contentinfo nav a:visited {
+		color: #fff;
+		display: inline-block;
+		height: 30px;
+		padding: 5px 80px;
+		text-decoration: none;
+}
+
+#content {
+	background: #fff;
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px 20px;
+	width: 1160px;
+	height: 600px;
+	
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
